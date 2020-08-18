@@ -5,3 +5,7 @@
   color: #323232;
   font-family: "Montserrat", sans-serif;
 }
+nav li,
+img {
+  margin-right: 20px;
+}
