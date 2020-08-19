@@ -2,10 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #323232;
+  color: #2b2b2b;
   font-family: "Montserrat", sans-serif;
+}
+nav {
+  background-color: white;
 }
 nav li,
 img {
   margin-right: 20px;
+}
+.cbox {
+  background-color: #c6c7e7;
+}
+
+.cbox h2 {
+  font-size: 40px;
+  font-weight: 1000;
+  margin-bottom: 40px;
+}
+.cbox img {
+  width: 100%;
+  padding: 8%;
+}
+.row {
+  margin-right: 5px;
+  padding: 40px 20px;
+}
+.btn-custom {
+  margin-top: 40px;
 }
