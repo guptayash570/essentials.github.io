@@ -23,7 +23,7 @@
 @media (max-width: 768px) {
   .social-media-container {
     bottom: 0;
-
+    left: auto;
     top: auto;
     flex-direction: row;
     width: 100%;
