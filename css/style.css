@@ -45,6 +45,7 @@ img {
 }
 .cbox {
   background-color: #ebecf7;
+  height: 100vh;
 }
 
 .cbox h2 {
@@ -62,4 +63,98 @@ img {
 }
 .btn-custom {
   margin-top: 40px;
+}
+/* Contest Alert  */
+.jazbat-cont {
+  display: flex;
+  padding: 80px 0;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.jazbat-cont h1 {
+  font-weight: 800;
+  font-size: 40px;
+  padding: 30px;
+  color: #392696;
+}
+.single-pricing {
+  margin: 0 20px;
+  /* position: relative; */
+  text-align: center;
+  padding: 20px 0;
+}
+.single-pricing div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-text {
+  height: 150px;
+  border-radius: 7px 7px 0 0;
+  line-height: 150px;
+
+  border-bottom: none;
+  padding: 20px;
+  background-color: #6b54e2;
+}
+.head-text h1 {
+  font-size: 35px;
+  color: white;
+}
+.price-area {
+  height: 60px;
+  background-color: #f0f0f0;
+}
+.price-area h3 {
+  color: #6b54e2;
+  font-weight: 700;
+}
+.feature-area {
+  height: 150px;
+  flex-direction: column;
+  background-color: #6b54e2;
+  border-radius: 0 0 7px 7px;
+}
+.feature-area h3 {
+  color: white;
+  font-size: 35px;
+  font-weight: 200;
+}
+.feature-area span {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+.worth-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.worth-area h1 {
+  font-size: 70px;
+  color: #6b54e2;
+}
+.worth-area h3 {
+  width: 30%;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .worth-area {
+    flex-direction: column;
+  }
+  .worth-area h3 {
+    width: auto;
+  }
+  .btns {
+    flex-direction: column;
+    width: auto;
+  }
 }
