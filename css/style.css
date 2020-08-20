@@ -45,7 +45,8 @@ img {
 }
 .cbox {
   background-color: #ebecf7;
-  height: 100vh;
+
+  overflow: hidden;
 }
 
 .cbox h2 {
