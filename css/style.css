@@ -5,6 +5,9 @@
   color: #2c2c2c;
   font-family: "Montserrat", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 .social-media-container {
   position: fixed;
   z-index: 2;
@@ -36,12 +39,35 @@
   margin: 0 auto;
   cursor: pointer;
 }
+.top-button-svg {
+  font-size: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: all 0.2s ease;
+}
+.top-button-svg:hover {
+  fill: #6b54e2;
+}
 nav {
   background-color: white;
 }
 nav li,
 img {
   margin-right: 20px;
+}
+.mydropdown {
+  border-radius: 8px;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+}
+.mydropdown a {
+  padding: 10px 32px;
+}
+.mydropdown a:hover {
+  background-color: #6b54e2;
+  color: white;
 }
 .cbox {
   background-color: #ebecf7;
@@ -64,6 +90,10 @@ img {
 }
 .btn-custom {
   margin-top: 40px;
+  background-color: #6b54e2;
+}
+.btn-custom:hover {
+  background-color: #494274;
 }
 /* Contest Alert  */
 .jazbat-cont {
